@@ -1,0 +1,29 @@
+
+.list-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+
+.list-title {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.list-items {
+    list-style: none;
+    padding: 0;
+}
+
+.list-items label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.list-items input[type="checkbox"]:checked+label {
+    color: #00b894;
+    font-weight: bold;
+}
